@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+/* div {
+    border: 1px solid black;
+} */
+button {
+    padding: 15px 45px;
+    border: 0;
+    outline: 0;
+    border-radius: 10px;
+    background: linear-gradient(
+        90deg,
+        rgba(69, 164, 221, 1) 11%,
+        rgba(51, 78, 194, 1) 100%,
+        rgba(233, 177, 140, 1) 100%
+      );
+      animation: name duration timing-function delay iteration-count direction fill-mode;
+      animation: bounce 1s infinite;
+}
+   
+@keyframes bounce {
+    0%,
+    100% {
+      transform: translateY(-25%);
+      animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+    }
+    50% {
+      transform: translateY(0);
+      animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+    }
+  }
+
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}

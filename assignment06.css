@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    font-size: 50px;
+    text-decoration: underline;
+}
+img {
+    border-radius: 20px;
+    width: 800px;
+    height: 600px;
+}
+img:hover {
+    filter: grayscale(1);
+    transition: 1s;
+}
+   
+    
